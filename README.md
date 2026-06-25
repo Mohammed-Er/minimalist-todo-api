@@ -2,26 +2,26 @@
 
 A RESTful backend API built with Node.js, Express, and MongoDB. This project demonstrates clean backend architecture, environment variable management, MongoDB integration using Mongoose, and complete CRUD operations for a Todo application.
 
-## Features
+## ✨ Features
 
-- ✅ Full CRUD functionality (`Create`, `Read`, `Update`, `Delete`)
-- ✅ MongoDB integration using Mongoose ODM
-- ✅ Data validation and sanitization through Mongoose Schemas
-- ✅ Environment variable isolation with Dotenv
-- ✅ Modular project structure with separated concerns
-- ✅ ES Modules syntax support
+* ✅ Full CRUD functionality (`Create`, `Read`, `Update`, `Delete`)
+* ✅ MongoDB integration using Mongoose ODM
+* ✅ Data validation and sanitization through Mongoose Schemas
+* ✅ Environment variable isolation with Dotenv
+* ✅ Modular project structure with separated concerns
+* ✅ ES Modules syntax support
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Runtime:** Node.js
-- **Framework:** Express.js
-- **Database:** MongoDB
-- **ODM:** Mongoose
-- **Environment Variables:** Dotenv
+* **Runtime:** Node.js
+* **Framework:** Express.js
+* **Database:** MongoDB
+* **ODM:** Mongoose
+* **Environment Variables:** Dotenv
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
@@ -33,7 +33,6 @@ cd minimalist-todo-api
 ### 2. Install Dependencies
 
 ```bash
-cd back_end
 npm install
 ```
 
@@ -48,8 +47,8 @@ MONGO_URI=your_mongodb_connection_string
 
 Replace `your_mongodb_connection_string` with either:
 
-- Your local MongoDB URI
-- MongoDB Atlas connection string
+* Your local MongoDB URI
+* A MongoDB Atlas connection string
 
 Example:
 
@@ -84,9 +83,7 @@ http://localhost:3000
 
 ## 📷 API Demo
 
-```markdown
 ![Postman Demo](assets/postman-demo.png)
-```
 
 ---
 
@@ -118,14 +115,10 @@ http://localhost:3000
 
 This project was built to practice:
 
-- REST API development
-- Express.js fundamentals
-- MongoDB and Mongoose
-- Backend project organization
-- Environment variable management
-- CRUD operations
-- Error handling and validation
-
-```
-
-```
+* REST API development
+* Express.js fundamentals
+* MongoDB and Mongoose
+* Backend project organization
+* Environment variable management
+* CRUD operations
+* Error handling and validation
