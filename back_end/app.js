@@ -2,11 +2,14 @@ import express from "express";
 import todoRoutes from "./routes/todoRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
 import errorHandler from "./middleware/errorHandler.js";
+import connectDB from "./config/db.js";
 import cors from "cors";
+
 const app = express();
 
-app.use(cors());
+await connectDB();
 
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
@@ -14,8 +17,8 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/todos", todoRoutes);
-
 app.use("/api/users", authRoutes);
 
 app.use(errorHandler);
+
 export default app;
