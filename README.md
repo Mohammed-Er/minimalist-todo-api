@@ -59,6 +59,16 @@ This project demonstrates secure authentication, RESTful APIs, CRUD operations, 
 
 ---
 
+---
+
+## 📸 Preview
+
+![Todo Dashboard](./assets/dashboard.png)
+![Login Page](./assets/login.png)
+![Sign-Up Page](./assets/image.png)
+
+---
+
 ## Project Structure
 
 ```text
@@ -107,14 +117,6 @@ Requires a valid JWT.
 | POST   | `/api/todos`     |
 | PUT    | `/api/todos/:id` |
 | DELETE | `/api/todos/:id` |
-
----
-
-## 📸 Preview
-
-![Todo Dashboard](./assets/dashboard.png)
-![Login Page](./assets/login.png)
-![Sign-Up Page](./assets/signup.png)
 
 ---
 
