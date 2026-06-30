@@ -192,5 +192,5 @@ function refreshUI() {
 
 logoutBtn.addEventListener("click", function () {
   localStorage.removeItem("token");
-  window.location.href = "/minimalist-todo-api/front_end/forms/login.html";
+  window.location.href = "/forms/index.html";
 });

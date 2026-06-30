@@ -8,7 +8,7 @@ This project demonstrates secure authentication, RESTful APIs, CRUD operations, 
 
 ## 🚀 Live Demo
 
-**🔗 Live Application:** \*\*
+**🔗 Live Application:** *https://task-flow-pbty.vercel.app/*
 
 ---
 
