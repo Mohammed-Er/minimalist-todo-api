@@ -1,7 +1,7 @@
-const API_URL = "http://localhost:3000/api/users/register";
+const API_URL = "https://task-flow-five-gray.vercel.app/api/users/register";
 const form = document.getElementById("sign-form");
 
-const submitBtn = form.querySelector('button[type="submit"]'); 
+const submitBtn = form.querySelector('button[type="submit"]');
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
@@ -10,7 +10,7 @@ form.addEventListener("submit", async (event) => {
   submitBtn.textContent = "Signing up...";
 
   const formData = new FormData(form);
-  const dataPayload = Object.fromEntries(formData); 
+  const dataPayload = Object.fromEntries(formData);
 
   try {
     const response = await fetch(API_URL, {
@@ -18,16 +18,18 @@ form.addEventListener("submit", async (event) => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(dataPayload), 
+      body: JSON.stringify(dataPayload),
     });
 
     const data = await response.json();
 
     if (response.ok) {
       alert("Registration successful! Please log in.");
-      window.location.href = "login.html"; 
+      window.location.href = "login.html";
     } else {
-      alert(data.message || "An error occurred while signing up. Please try again.");
+      alert(
+        data.message || "An error occurred while signing up. Please try again.",
+      );
     }
   } catch (error) {
     console.error("Error signing up:", error);
